@@ -98,7 +98,7 @@ Power : <input type="text" name="power" value="{{power}}"></input>(in W)<br/>
 </body>
 </html>
 
-view.py
+views.py
 from django.shortcuts import render
 
 def power_calculator(request):
